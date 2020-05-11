@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Managers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Madina.Infrastructure\Madina.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
